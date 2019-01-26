@@ -17,8 +17,6 @@ parser.on('data', (buffer) => {
 	console.log('Received: ', buffer);
 });
 
-
-
 const sendBySerial = (data) => {
 	serialPort.write(data, (err, result) => {
 		if (err) {
