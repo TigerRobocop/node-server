@@ -5,5 +5,9 @@
 - run `npm install --save serialport`
 - get local ip `ifconfig | grep 172 `. 172.26.121.232
 
+- get serial port from terminal `ls /dev/*usbmodem*`  /dev/cu.usbmodem14201
+
+
+
 
 
